@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+# Podfile
+use_frameworks!
+inhibit_all_warnings!
+
+target 'MallSwift' do
+    # Pods for MallSwift
+
+    # Networking
+    pod 'Alamofire'  # https://github.com/Alamofire/Alamofire
+
+    # Reachability
+    pod 'ReachabilitySwift'  # https://github.com/ashleymills/Reachability.swift
+
+    # Rx
+    pod 'RxSwift', '6.5.0'  # https://github.com/ReactiveX/RxSwift
+    pod 'RxCocoa', '6.5.0'
+    
+    # JSON
+    pod 'SwiftyJSON', '~> 4.0'  # https://github.com/SwiftyJSON/SwiftyJSON
+    pod 'HandyJSON', '~> 5.0.2'  # https://github.com/alibaba/HandyJSON
+    
+    # Image
+    pod 'Kingfisher', '~> 7.0'  # https://github.com/onevcat/Kingfisher
+
+    # Autolayout
+    pod 'SnapKit', '~> 5.6.0'  # https://github.com/SnapKit/SnapKit
+end
+
+# RxTest and RxBlocking make the most sense in the context of unit/integration tests
+target 'MallSwiftTests' do
+    pod 'RxBlocking', '6.5.0'
+    pod 'RxTest', '6.5.0'
+end

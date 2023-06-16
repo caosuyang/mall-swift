@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (5.7.1)
+  - HandyJSON (5.0.2)
+  - Kingfisher (7.8.0)
+  - ReachabilitySwift (5.0.0)
+  - RxBlocking (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
+  - SnapKit (5.6.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON (~> 5.0.2)
+  - Kingfisher (~> 7.0)
+  - ReachabilitySwift
+  - RxBlocking (= 6.5.0)
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+  - RxTest (= 6.5.0)
+  - SnapKit (~> 5.6.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+    - ReachabilitySwift
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Kingfisher: 0656e1b064bfc1ca1cd04e033f617a86559696e9
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RxBlocking: 04b5fd28bb5ea49f7d64b80db8bbfe50d9cc1c7d
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: f8dec88c8b1ffd31fe4f867937cb38e49d1ab4be
+
+COCOAPODS: 1.10.1
