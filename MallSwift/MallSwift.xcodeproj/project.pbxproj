@@ -24,7 +24,6 @@
 		31E06F292A3ECA6E00E046D5 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06F282A3ECA6E00E046D5 /* TableViewCellViewModel.swift */; };
 		31E06F2B2A3ECA8200E046D5 /* DefaultTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06F2A2A3ECA8200E046D5 /* DefaultTableViewCellViewModel.swift */; };
 		31E06F2D2A3ECA9600E046D5 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06F2C2A3ECA9600E046D5 /* ViewModelType.swift */; };
-		31E06F2F2A3ECAAA00E046D5 /* CollectionViewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06F2E2A3ECAAA00E046D5 /* CollectionViewCollectionViewController.swift */; };
 		31E06F312A3ECAC500E046D5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06F302A3ECAC500E046D5 /* CollectionViewCell.swift */; };
 		31E06F332A3ECAE500E046D5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06F322A3ECAE500E046D5 /* CollectionViewController.swift */; };
 		31E06F352A3ECB0200E046D5 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06F342A3ECB0200E046D5 /* NavigationController.swift */; };
@@ -80,6 +79,7 @@
 		31E06F9B2A3ED59500E046D5 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E06F9A2A3ED59500E046D5 /* Icons.xcassets */; };
 		31E06F9D2A3ED67300E046D5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 31E06F9C2A3ED67300E046D5 /* .gitignore */; };
 		31E06F9F2A3ED67900E046D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31E06F9E2A3ED67900E046D5 /* README.md */; };
+		31E06FA12A3EEB1E00E046D5 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06FA02A3EEB1E00E046D5 /* CollectionView.swift */; };
 		EA4F1E27FFE84AD8A9293798 /* Pods_MallSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4710B70E5940D279439E3D51 /* Pods_MallSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -121,7 +121,6 @@
 		31E06F282A3ECA6E00E046D5 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
 		31E06F2A2A3ECA8200E046D5 /* DefaultTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		31E06F2C2A3ECA9600E046D5 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
-		31E06F2E2A3ECAAA00E046D5 /* CollectionViewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCollectionViewController.swift; sourceTree = "<group>"; };
 		31E06F302A3ECAC500E046D5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		31E06F322A3ECAE500E046D5 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		31E06F342A3ECB0200E046D5 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
@@ -177,6 +176,7 @@
 		31E06F9A2A3ED59500E046D5 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		31E06F9C2A3ED67300E046D5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../../../.gitignore; sourceTree = "<group>"; };
 		31E06F9E2A3ED67900E046D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		31E06FA02A3EEB1E00E046D5 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		4710B70E5940D279439E3D51 /* Pods_MallSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MallSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		726D35A852FEDF779A289190 /* Pods-MallSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallSwift.release.xcconfig"; path = "Target Support Files/Pods-MallSwift/Pods-MallSwift.release.xcconfig"; sourceTree = "<group>"; };
 		9BF9227E2D2E6262B7D64E28 /* Pods-MallSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-MallSwiftTests/Pods-MallSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -229,7 +229,7 @@
 				31542B3A2A3DE60700DB2A34 /* Table View Cells */,
 				31542B392A3DE60700DB2A34 /* ViewController.swift */,
 				31E06F2C2A3ECA9600E046D5 /* ViewModelType.swift */,
-				31E06F2E2A3ECAAA00E046D5 /* CollectionViewCollectionViewController.swift */,
+				31E06FA02A3EEB1E00E046D5 /* CollectionView.swift */,
 				31E06F302A3ECAC500E046D5 /* CollectionViewCell.swift */,
 				31E06F322A3ECAE500E046D5 /* CollectionViewController.swift */,
 				31E06F342A3ECB0200E046D5 /* NavigationController.swift */,
@@ -936,11 +936,11 @@
 				31E06F372A3ECB1400E046D5 /* BarButtonItem.swift in Sources */,
 				31E06F312A3ECAC500E046D5 /* CollectionViewCell.swift in Sources */,
 				31E06F992A3ED4F700E046D5 /* RegisterViewModel.swift in Sources */,
-				31E06F2F2A3ECAAA00E046D5 /* CollectionViewCollectionViewController.swift in Sources */,
 				31E06F872A3ED3F900E046D5 /* CategoryViewController.swift in Sources */,
 				31E06F6F2A3ED2A600E046D5 /* Observable+Logging.swift in Sources */,
 				31E06F912A3ED47D00E046D5 /* UserViewModel.swift in Sources */,
 				31E06F8F2A3ED46700E046D5 /* UserViewController.swift in Sources */,
+				31E06FA12A3EEB1E00E046D5 /* CollectionView.swift in Sources */,
 				31E06F972A3ED4BE00E046D5 /* RegisterViewController.swift in Sources */,
 				31E06F352A3ECB0200E046D5 /* NavigationController.swift in Sources */,
 				31542B752A3DE60D00DB2A34 /* AppDelegate.swift in Sources */,
