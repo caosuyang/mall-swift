@@ -1,0 +1,16 @@
+//
+//  ViewModelType.swift
+//  MallSwift
+//
+//  Created by 曹素洋 on 2023/6/18.
+//
+
+import UIKit
+
+protocol ViewModelType {
+
+}
+
+class ViewModel: NSObject {
+    
+}
