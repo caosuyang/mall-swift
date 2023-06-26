@@ -9,12 +9,26 @@ import UIKit
 
 class Toolbar: UIToolbar {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        makeUI()
     }
-    */
 
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        makeUI()
+    }
+
+    func makeUI() {
+        isTranslucent = false
+
+        theme.barStyle = themeService.attribute { $0.barStyle }
+        theme.barTintColor = themeService.attribute { $0.primaryDark }
+        theme.tintColor = themeService.attribute { $0.secondary }
+
+        snp.makeConstraints { (make) in
+            make.height.equalTo(Configs.BaseDimensions.tableRowHeight)
+        }
+    }
 }
+

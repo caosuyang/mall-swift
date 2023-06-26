@@ -9,12 +9,18 @@ import UIKit
 
 class Switch: UISwitch {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        makeUI()
     }
-    */
 
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        makeUI()
+    }
+
+    func makeUI() {
+        self.theme.tintColor = themeService.attribute { $0.secondary }
+        self.theme.onTintColor = themeService.attribute { $0.secondary }
+    }
 }

@@ -9,12 +9,34 @@ import UIKit
 
 class Button: UIButton {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        makeUI()
     }
-    */
-
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        makeUI()
+    }
+    
+    func makeUI() {
+        theme.backgroundImage(from: themeService.attribute{ $0.secondary }, for: .normal)
+        theme.backgroundImage(from: themeService.attribute{ $0.secondary.withAlphaComponent(0.9) }, for: .selected)
+        theme.backgroundImage(from: themeService.attribute{ $0.secondary.withAlphaComponent(0.6) }, for: .disabled)
+        
+        layer.masksToBounds = true
+        titleLabel?.lineBreakMode = .byWordWrapping
+        cornerRadius = Configs.BaseDimensions.cornerRadius
+        
+        snp.makeConstraints { make in
+            make.height.equalTo(Configs.BaseDimensions.buttonHeight)
+        }
+        
+        updateUI()
+    }
+    
+    func updateUI() {
+        setNeedsDisplay()
+    }
 }
+
