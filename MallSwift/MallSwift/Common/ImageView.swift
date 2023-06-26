@@ -30,11 +30,11 @@ class ImageView: UIImageView {
     }
     
     func makeUI() {
-        tintColor = .primary()
+//        tintColor = .primary()
         layer.masksToBounds = true
         contentMode = .center
 
-        hero.modifiers = [.arc]
+//        hero.modifiers = [.arc]
 
         updateUI()
     }

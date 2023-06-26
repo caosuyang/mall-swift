@@ -7,9 +7,9 @@
 
 import Foundation
 
-//enum HomeTabBarItem: Int {
-//    case homePage, category, cart, user
-//    
+enum HomeTabBarItem: Int {
+    case homePage, category, cart, user
+    
 //    private func controller(with viewModel: ViewModel, navigator: Navigator) -> UIViewController {
 //        switch self {
 //        case .homePage:
@@ -26,7 +26,7 @@ import Foundation
 //            return NavigationController(rootViewController: vc)
 //        }
 //    }
-//    
+//
 //    var image: UIImage? {
 //        switch self {
 //        case .accountDetails: return R.image.icon_tabbar_account_details()
@@ -44,7 +44,69 @@ import Foundation
 //        case .user: return R.string.localizable.homeTabBarSettingsTitle.key.localized()
 //        }
 //    }
-//    
+//
+//    var animation: RAMItemAnimation {
+//        var animation: RAMItemAnimation
+//        switch self {
+//        case .homePage: animation = RAMFlipLeftTransitionItemAnimations()
+//        case .category: animation = RAMBounceAnimation()
+//        case .cart: animation = RAMBounceAnimation()
+//        case .user: animation = RAMRightRotationAnimation()
+//        }
+//        animation.theme.iconSelectedColor = themeService.attribute { $0.secondary }
+//        animation.theme.textSelectedColor = themeService.attribute { $0.secondary }
+//        return animation
+//    }
+//
+//    func getController(with viewModel: ViewModel, navigator: Navigator) -> UIViewController {
+//        let vc = controller(with: viewModel, navigator: navigator)
+//        let item = RAMAnimatedTabBarItem(title: title, image: image, tag: rawValue)
+//        item.animation = animation
+//        item.theme.iconColor = themeService.attribute { $0.text }
+//        item.theme.textColor = themeService.attribute { $0.text }
+//        vc.tabBarItem = item
+//        return vc
+//    }
+}
+
+//enum HomeTabBarItem: Int {
+//    case homePage, category, cart, user
+//
+//    private func controller(with viewModel: ViewModel, navigator: Navigator) -> UIViewController {
+//        switch self {
+//        case .homePage:
+//            let vc = HomePageViewController(viewModel: viewModel, navigator: navigator)
+//            return NavigationController(rootViewController: vc)
+//        case .category:
+//            let vc = CategoryViewController(viewModel: viewModel, navigator: navigator)
+//            return NavigationController(rootViewController: vc)
+//        case .cart:
+//            let vc = CartViewController(viewModel: viewModel, navigator: navigator)
+//            return NavigationController(rootViewController: vc)
+//        case .user:
+//            let vc = UserViewController(viewModel: viewModel, navigator: navigator)
+//            return NavigationController(rootViewController: vc)
+//        }
+//    }
+//
+//    var image: UIImage? {
+//        switch self {
+//        case .accountDetails: return R.image.icon_tabbar_account_details()
+//        case .charts: return R.image.icon_tabbar_charts()
+//        case .account: return R.image.icon_tabbar_account()
+//        case .settings: return R.image.icon_tabbar_settings()
+//        }
+//    }
+//
+//    var title: String {
+//        switch self {
+//        case .homePage: return R.string.localizable.homeTabBarAccountDetailsTitle.key.localized()
+//        case .category: return R.string.localizable.homeTabBarChartsTitle.key.localized()
+//        case .cart: return R.string.localizable.homeTabBarAccountTitle.key.localized()
+//        case .user: return R.string.localizable.homeTabBarSettingsTitle.key.localized()
+//        }
+//    }
+//
 //    var animation: RAMItemAnimation {
 //        var animation: RAMItemAnimation
 //        switch self {
@@ -68,7 +130,7 @@ import Foundation
 //        return vc
 //    }
 //}
-//
+
 //class HomeTabBarController: RAMAnimatedTabBarController, Navigatable {
 //
 //    var viewModel: HomeTabBarViewModel?

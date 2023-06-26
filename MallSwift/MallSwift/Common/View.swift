@@ -53,9 +53,8 @@ extension UIView {
         return Configs.BaseDimensions.inset
     }
 
-    open func setPriority(_ priority: UILayoutPriority, for axis: NSLayoutConstraint.Axis) {
+    public func setPriority(_ priority: UILayoutPriority, for axis: NSLayoutConstraint.Axis) {
         self.setContentHuggingPriority(priority, for: axis)
         self.setContentCompressionResistancePriority(priority, for: axis)
     }
 }
-

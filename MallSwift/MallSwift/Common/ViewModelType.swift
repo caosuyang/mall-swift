@@ -15,15 +15,14 @@ protocol ViewModelType {
     
     func transform(input: Input) -> Output
 }
-}
 
 class ViewModel: NSObject {
     
     var page = 1
     
-    let loading = ActivityIndicator()
-    let headerLoading = ActivityIndicator()
-    let footerLoading = ActivityIndicator()
+//    let loading = ActivityIndicator()
+//    let headerLoading = ActivityIndicator()
+//    let footerLoading = ActivityIndicator()
     
     override init() {
         super.init()

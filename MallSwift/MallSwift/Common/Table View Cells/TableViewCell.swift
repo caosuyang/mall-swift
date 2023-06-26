@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import SnapKit
 
 class TableViewCell: UITableViewCell {
 
@@ -23,10 +24,10 @@ class TableViewCell: UITableViewCell {
     lazy var containerView: View = {
         let view = View()
         view.backgroundColor = .clear
-        view.cornerRadius = Configs.BaseDimensions.cornerRadius
+        view.layer.cornerRadius = Configs.BaseDimensions.cornerRadius
         self.addSubview(view)
         view.snp.makeConstraints({ (make) in
-            make.edges.equalToSuperview().inset(UIEdgeInsets(horizontal: self.inset, vertical: self.inset/2))
+            make.edges.equalToSuperview().inset(inset/2)
         })
         return view
     }()
@@ -59,8 +60,8 @@ class TableViewCell: UITableViewCell {
         selectionStyle = .none
         backgroundColor = .clear
 
-        theme.selectionColor = themeService.attribute { $0.primary }
-        containerView.theme.backgroundColor = themeService.attribute { $0.primary }
+//        theme.selectionColor = themeService.attribute { $0.primary }
+//        containerView.theme.backgroundColor = themeService.attribute { $0.primary }
 
         updateUI()
     }

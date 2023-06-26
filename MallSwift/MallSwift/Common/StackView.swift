@@ -20,7 +20,8 @@ class StackView: UIStackView {
     }
 
     func makeUI() {
-        spacing = inset
+//        spacing = inset
+        spacing = Configs.BaseDimensions.inset
         axis = .vertical
         // self.distribution = .fill
 

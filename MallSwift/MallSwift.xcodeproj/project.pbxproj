@@ -227,8 +227,8 @@
 			isa = PBXGroup;
 			children = (
 				31542B3A2A3DE60700DB2A34 /* Table View Cells */,
-				31542B392A3DE60700DB2A34 /* ViewController.swift */,
 				31E06F2C2A3ECA9600E046D5 /* ViewModelType.swift */,
+				31542B392A3DE60700DB2A34 /* ViewController.swift */,
 				31E06FA02A3EEB1E00E046D5 /* CollectionView.swift */,
 				31E06F302A3ECAC500E046D5 /* CollectionViewCell.swift */,
 				31E06F322A3ECAE500E046D5 /* CollectionViewController.swift */,
