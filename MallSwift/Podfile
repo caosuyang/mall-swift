@@ -9,14 +9,15 @@ target 'MallSwift' do
     # Pods for MallSwift
 
     # Networking
-    pod 'Alamofire'  # https://github.com/Alamofire/Alamofire
+    pod 'Alamofire', '~> 5.7.1'  # https://github.com/Alamofire/Alamofire
 
     # Reachability
-    pod 'ReachabilitySwift'  # https://github.com/ashleymills/Reachability.swift
+    pod 'ReachabilitySwift', '~> 5.0.0'  # https://github.com/ashleymills/Reachability.swift
 
     # Rx
     pod 'RxSwift', '6.5.0'  # https://github.com/ReactiveX/RxSwift
     pod 'RxCocoa', '6.5.0'
+    pod 'RxOptional', '~> 5.0.2'  # https://github.com/RxSwiftCommunity/RxOptional
     
     # JSON
     pod 'SwiftyJSON', '~> 4.0'  # https://github.com/SwiftyJSON/SwiftyJSON
