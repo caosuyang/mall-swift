@@ -11,8 +11,8 @@ import UIKit
 //    
 //    lazy var collectionView: CollectionView = {
 //        let view = CollectionView()
-//        view.emptyDataSetSource = self
-//        view.emptyDataSetDelegate = self
+////        view.emptyDataSetSource = self
+////        view.emptyDataSetDelegate = self
 //        return view
 //    }()
 //    

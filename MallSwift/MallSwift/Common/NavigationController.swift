@@ -7,19 +7,19 @@
 
 import UIKit
 
-//class NavigationController: UINavigationController {
-//
+class NavigationController: UINavigationController {
+
 //    override var preferredStatusBarStyle: UIStatusBarStyle {
 //        return globalStatusBarStyle.value
 //    }
-//    
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//        // Do any additional setup after loading the view.
-//        
-//        interactivePopGestureRecognizer?.delegate = nil // Enable default iOS back swipe gesture
-//
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+        
+        interactivePopGestureRecognizer?.delegate = nil // Enable default iOS back swipe gesture
+
 //        if #available(iOS 13.0, *) {
 //            hero.isEnabled = false
 //        } else {
@@ -27,13 +27,13 @@ import UIKit
 //        }
 //        hero.modalAnimationType = .autoReverse(presenting: .fade)
 //        hero.navigationAnimationType = .autoReverse(presenting: .slide(direction: .left))
-//
-////        navigationBar.isTranslucent = false
+
+//        navigationBar.isTranslucent = false
 //        navigationBar.backIndicatorImage = R.image.icon_navigation_back()
 //        navigationBar.backIndicatorTransitionMaskImage = R.image.icon_navigation_back()
-//
+
 //        navigationBar.theme.tintColor = themeService.attribute { $0.secondary }
-////        navigationBar.theme.barTintColor = themeService.attribute { $0.primaryDark }
+//        navigationBar.theme.barTintColor = themeService.attribute { $0.primaryDark }
 //        navigationBar.theme.titleTextAttributes = themeService.attribute { [NSAttributedString.Key.foregroundColor: $0.text] }
-//    }
-//}
+    }
+}

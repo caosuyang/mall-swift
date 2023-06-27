@@ -7,13 +7,13 @@
 
 import UIKit
 
-//class CollectionViewCell: UICollectionViewCell {
-//    func makeUI() {
-//        self.layer.masksToBounds = true
-//        updateUI()
-//    }
-//    
-//    func updateUI() {
-//        setNeedsDisplay()
-//    }
-//}
+class CollectionViewCell: UICollectionViewCell {
+    func makeUI() {
+        self.layer.masksToBounds = true
+        updateUI()
+    }
+    
+    func updateUI() {
+        setNeedsDisplay()
+    }
+}
