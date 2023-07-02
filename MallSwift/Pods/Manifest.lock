@@ -8,6 +8,9 @@ PODS:
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - RxOptional (5.0.2):
     - RxCocoa (~> 6.0)
     - RxSwift (~> 6.0)
@@ -16,6 +19,9 @@ PODS:
   - RxSwift (6.5.0)
   - RxTest (6.5.0):
     - RxSwift (= 6.5.0)
+  - RxTheme (6.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - SnapKit (5.6.0)
   - SwiftyJSON (4.3.0)
 
@@ -26,9 +32,11 @@ DEPENDENCIES:
   - ReachabilitySwift (~> 5.0.0)
   - RxBlocking (= 6.5.0)
   - RxCocoa (= 6.5.0)
+  - RxGesture (~> 4.0.4)
   - RxOptional (~> 5.0.2)
   - RxSwift (= 6.5.0)
   - RxTest (= 6.5.0)
+  - RxTheme (~> 6.0.0)
   - SnapKit (~> 5.6.0)
   - SwiftyJSON (~> 4.0)
 
@@ -40,10 +48,12 @@ SPEC REPOS:
     - ReachabilitySwift
     - RxBlocking
     - RxCocoa
+    - RxGesture
     - RxOptional
     - RxRelay
     - RxSwift
     - RxTest
+    - RxTheme
     - SnapKit
     - SwiftyJSON
 
@@ -54,13 +64,15 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   RxBlocking: 04b5fd28bb5ea49f7d64b80db8bbfe50d9cc1c7d
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
   RxOptional: 3664964c96b69dd20c9cf78bdfe546615e26eca8
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
+  RxTheme: be60cb14e0544b3cbd574cc37fed35ba9d61aa1f
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: b481de86e63b591b706a7b42aeb0d1db49891390
+PODFILE CHECKSUM: 24802bf5867c5a8ed74b2447b7c8d2dc55015b7e
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.12.1
