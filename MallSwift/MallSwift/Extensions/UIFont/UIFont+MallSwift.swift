@@ -8,7 +8,7 @@
 import UIKit
 import Foundation
 
-// MARK: MallSwift Fonts
+// MARK: Account Fonts
 
 extension UIFont {
 
