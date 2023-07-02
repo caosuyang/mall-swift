@@ -19,6 +19,7 @@ target 'MallSwift' do
     pod 'RxCocoa', '6.5.0'
     pod 'RxOptional', '~> 5.0.2'  # https://github.com/RxSwiftCommunity/RxOptional
     pod 'RxGesture', '~> 4.0.4'  # https://github.com/RxSwiftCommunity/RxGesture
+    pod 'RxTheme', '~> 6.0.0'  # https://github.com/RxSwiftCommunity/RxTheme
     
     # JSON
     pod 'SwiftyJSON', '~> 4.0'  # https://github.com/SwiftyJSON/SwiftyJSON

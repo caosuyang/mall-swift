@@ -19,6 +19,9 @@ PODS:
   - RxSwift (6.5.0)
   - RxTest (6.5.0):
     - RxSwift (= 6.5.0)
+  - RxTheme (6.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - SnapKit (5.6.0)
   - SwiftyJSON (4.3.0)
 
@@ -33,6 +36,7 @@ DEPENDENCIES:
   - RxOptional (~> 5.0.2)
   - RxSwift (= 6.5.0)
   - RxTest (= 6.5.0)
+  - RxTheme (~> 6.0.0)
   - SnapKit (~> 5.6.0)
   - SwiftyJSON (~> 4.0)
 
@@ -49,6 +53,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - RxTest
+    - RxTheme
     - SnapKit
     - SwiftyJSON
 
@@ -64,9 +69,10 @@ SPEC CHECKSUMS:
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
+  RxTheme: be60cb14e0544b3cbd574cc37fed35ba9d61aa1f
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 731e8a1239486a298e9dfba7f84d2081df2692d2
+PODFILE CHECKSUM: 24802bf5867c5a8ed74b2447b7c8d2dc55015b7e
 
 COCOAPODS: 1.12.1
