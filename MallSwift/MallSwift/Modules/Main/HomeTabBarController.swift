@@ -10,23 +10,8 @@ import Foundation
 enum HomeTabBarItem: Int {
     case homePage, category, cart, user
     
-//    private func controller(with viewModel: ViewModel, navigator: Navigator) -> UIViewController {
-//        switch self {
-//        case .homePage:
-//            let vc = HomePageViewController(viewModel: viewModel, navigator: navigator)
-//            return NavigationController(rootViewController: vc)
-//        case .category:
-//            let vc = CategoryViewController(viewModel: viewModel, navigator: navigator)
-//            return NavigationController(rootViewController: vc)
-//        case .cart:
-//            let vc = CartViewController(viewModel: viewModel, navigator: navigator)
-//            return NavigationController(rootViewController: vc)
-//        case .user:
-//            let vc = UserViewController(viewModel: viewModel, navigator: navigator)
-//            return NavigationController(rootViewController: vc)
-//        }
-//    }
-//
+// 
+
 //    var image: UIImage? {
 //        switch self {
 //        case .accountDetails: return R.image.icon_tabbar_account_details()
@@ -57,7 +42,7 @@ enum HomeTabBarItem: Int {
 //        animation.theme.textSelectedColor = themeService.attribute { $0.secondary }
 //        return animation
 //    }
-//
+
 //    func getController(with viewModel: ViewModel, navigator: Navigator) -> UIViewController {
 //        let vc = controller(with: viewModel, navigator: navigator)
 //        let item = RAMAnimatedTabBarItem(title: title, image: image, tag: rawValue)
@@ -135,17 +120,17 @@ enum HomeTabBarItem: Int {
 //
 //    var viewModel: HomeTabBarViewModel?
 //    var navigator: Navigator!
-//    
+//
 //    init(viewModel: ViewModel?, navigator: Navigator) {
 //        self.viewModel = viewModel as? HomeTabBarViewModel
 //        self.navigator = navigator
 //        super.init(nibName: nil, bundle: nil)
 //    }
-//    
+//
 //    required init?(coder: NSCoder) {
 //        super.init(nibName: nil, bundle: nil)
 //    }
-//    
+//
 //    override func viewDidLoad() {
 //        super.viewDidLoad()
 //
@@ -153,7 +138,7 @@ enum HomeTabBarItem: Int {
 //        makeUI()
 //        bindViewModel()
 //    }
-//    
+//
 //    func makeUI() {
 //        NotificationCenter.default
 //            .rx.notification(NSNotification.Name(LCLLanguageChangeNotification))
@@ -164,7 +149,7 @@ enum HomeTabBarItem: Int {
 //                self?.setViewControllers(self?.viewControllers, animated: false)
 //                self?.setSelectIndex(from: 0, to: self?.selectedIndex ?? 0)
 //            }.disposed(by: rx.disposeBag)
-//        
+//
 //        tabBar.theme.barTintColor = themeService.attribute { $0.primaryDark }
 //
 //        themeService.typeStream.delay(DispatchTimeInterval.milliseconds(200), scheduler: MainScheduler.instance)
@@ -175,7 +160,7 @@ enum HomeTabBarItem: Int {
 //                }
 //            }).disposed(by: rx.disposeBag)
 //    }
-//    
+//
 //    func bindViewModel() {
 //        guard let viewModel = viewModel else { return }
 //
