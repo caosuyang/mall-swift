@@ -80,6 +80,8 @@
 		31E06F9D2A3ED67300E046D5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 31E06F9C2A3ED67300E046D5 /* .gitignore */; };
 		31E06F9F2A3ED67900E046D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31E06F9E2A3ED67900E046D5 /* README.md */; };
 		31E06FA12A3EEB1E00E046D5 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E06FA02A3EEB1E00E046D5 /* CollectionView.swift */; };
+		31EFADA62A51671300BA1F82 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFADA32A51671300BA1F82 /* ErrorTracker.swift */; };
+		31EFADA72A51671300BA1F82 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFADA52A51671300BA1F82 /* ActivityIndicator.swift */; };
 		EA4F1E27FFE84AD8A9293798 /* Pods_MallSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4710B70E5940D279439E3D51 /* Pods_MallSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -177,6 +179,8 @@
 		31E06F9C2A3ED67300E046D5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../../../.gitignore; sourceTree = "<group>"; };
 		31E06F9E2A3ED67900E046D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 		31E06FA02A3EEB1E00E046D5 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		31EFADA32A51671300BA1F82 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		31EFADA52A51671300BA1F82 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		4710B70E5940D279439E3D51 /* Pods_MallSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MallSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		726D35A852FEDF779A289190 /* Pods-MallSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallSwift.release.xcconfig"; path = "Target Support Files/Pods-MallSwift/Pods-MallSwift.release.xcconfig"; sourceTree = "<group>"; };
 		9BF9227E2D2E6262B7D64E28 /* Pods-MallSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-MallSwiftTests/Pods-MallSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -612,6 +616,8 @@
 		31542B6C2A3DE60B00DB2A34 /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				31EFADA42A51671300BA1F82 /* RxActivityIndicator */,
+				31EFADA22A51671300BA1F82 /* RxErrorTracker */,
 			);
 			path = "Third Party";
 			sourceTree = "<group>";
@@ -689,6 +695,22 @@
 				317A7EEC2A3C62F400B02A1D /* MallSwiftUITestsLaunchTests.swift */,
 			);
 			path = MallSwiftUITests;
+			sourceTree = "<group>";
+		};
+		31EFADA22A51671300BA1F82 /* RxErrorTracker */ = {
+			isa = PBXGroup;
+			children = (
+				31EFADA32A51671300BA1F82 /* ErrorTracker.swift */,
+			);
+			path = RxErrorTracker;
+			sourceTree = "<group>";
+		};
+		31EFADA42A51671300BA1F82 /* RxActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				31EFADA52A51671300BA1F82 /* ActivityIndicator.swift */,
+			);
+			path = RxActivityIndicator;
 			sourceTree = "<group>";
 		};
 		DCBD6611F3AC8455684E1279 /* Frameworks */ = {
@@ -922,6 +944,7 @@
 				31E06F332A3ECAE500E046D5 /* CollectionViewController.swift in Sources */,
 				31E06F6B2A3ED23C00E046D5 /* KafkaRefresh+Rx.swift in Sources */,
 				31E06F212A3EC9F500E046D5 /* Application.swift in Sources */,
+				31EFADA62A51671300BA1F82 /* ErrorTracker.swift in Sources */,
 				31E06F8D2A3ED45100E046D5 /* CartViewModel.swift in Sources */,
 				31E06F452A3ECBBC00E046D5 /* SegmentedControl.swift in Sources */,
 				31E06F5D2A3ED12500E046D5 /* UIImage+MallSwift.swift in Sources */,
@@ -974,6 +997,7 @@
 				31E06F752A3ED2CF00E046D5 /* Reachability.swift in Sources */,
 				31E06F572A3ECC7B00E046D5 /* View.swift in Sources */,
 				31E06F552A3ECC6B00E046D5 /* Toolbar.swift in Sources */,
+				31EFADA72A51671300BA1F82 /* ActivityIndicator.swift in Sources */,
 				31E06F892A3ED42800E046D5 /* CategoryViewModel.swift in Sources */,
 				31E06F7F2A3ED34200E046D5 /* HomeTabBarViewModel.swift in Sources */,
 				31E06F772A3ED2EE00E046D5 /* AuthManager.swift in Sources */,
